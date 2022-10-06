@@ -1,0 +1,22 @@
+* {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  --light: #fff;
+  --dark: #000;
+  --dark-light: #999;
+  --primary: #009edd;
+  --background: ##999999;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Open Sans", sans-serif;
+  overflow-y: scroll;
+}

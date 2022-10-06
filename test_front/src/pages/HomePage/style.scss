@@ -1,0 +1,16 @@
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin: 52px 0;
+  color: var(--light);
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 256px 256px;
+    justify-content: center;
+  }
+  @media screen and (max-width: 576px) {
+    grid-template-columns: 256px;
+    margin: 10px 0;
+  }
+}

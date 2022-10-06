@@ -1,0 +1,19 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 40px;
+  padding: 0;
+  color: var(--light);
+  text-transform: uppercase;
+  background-color: var(--primary);
+  border-radius: 4px;
+  border: none;
+
+  &:hover {
+    opacity: 0.85;
+    border: none;
+    outline: none;
+  }
+}

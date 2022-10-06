@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  padding: 20px 10px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  color: var(--light);
+
+  & > a {
+    color: var(--light);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      p {
+        margin: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+
+        @media screen and (max-width: 576px) {
+          display: none;
+        }
+      }
+      small {
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--dark-light);
+      }
+    }
+    &:hover {
+      color: inherit;
+      opacity: 0.85;
+    }
+  }
+}
