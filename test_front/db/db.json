@@ -37,20 +37,5 @@
       "image": "https://www.imagemhost.com.br/images/2022/07/10/eternals.png"
     }
   ],
-  "cart": [
-    {
-      "title": "Shang-chi",
-      "price": 30.99,
-      "image": "https://www.imagemhost.com.br/images/2022/07/10/shang-chi.png",
-      "count": 1,
-      "id": 2
-    },
-    {
-      "title": "Viúva Negra",
-      "price": 9.99,
-      "image": "https://www.imagemhost.com.br/images/2022/07/10/viuva-negra.png",
-      "count": 1,
-      "id": 1
-    }
-  ]
+  "cart": []
 }
